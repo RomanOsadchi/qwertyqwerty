@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "integrationtogsviaapi",
+  "private_key_id": "9ba13f306e487b1ffe21a68947e0a91fbf4eaf49",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC00TmSGJMQIqga\nREB4Jwi6ZvFzavxtC4Yas3I17FjJgUHYcEzltqLF4/ZklbuTDIfWfr/GHy9nG6aW\nmC3qESpjz/8IbCYioplG4uPaX7a40l5NrGmZm5L51LPjnNmPakyDrAL3cH0MMcPZ\nzl0qfoZwPxgZwEsvM8KNxqMqaJhTOhFpsRe6ohgjFlyHb70mCl6SiRTJQOsRmRaJ\nEDCYK6pXZv7CIyYfUDY5EcQUFUGIV8GQOatjPDDFhyN8zDzqCgFnIunMOftN16rc\nfAl3c/TvK8TbRzoONbVblDHjK+07wMPlf6mPyWMszEyMdoYuf074TPuuEmP8FYzh\nl7Vek6wbAgMBAAECggEASvdp4pAMvQZZYtaEUiyA2mOe3KbxNDawaXaXthKg9x5/\nkcBxqVXQ47HxcF+CDuQFl6EiWn6IdTvKFCrQ8ngedpaAWtoX74kxemnMZTgEtlkF\n3zdJ6vVM+Qa+dHKN4v+D7J2O907skXc6h52fE+S0UWpfUCHhKhdQJN7DvGv0J6C7\ntKjuYKvgFdNI7zYSZZ7KoobOkj8Q2SZycJXbTmnJATqqupjyA4StM7DEpx6HdqP8\n1tohD/XKsABVhyXUXqsmseEV0Ng3uj0Z6s/P39j+PnabFj4FyqdZ7vjj+ulHWDR8\nIPUA9qdwG6fJhG7XYS4J4U7+w3PLtUTfEtgDD7Fa5QKBgQDazH2BJbKnHXzLxaw/\nmAqWOtwkQSMcMbSTp7ZVC0LA3Px3joR5ZBis/ZqeoJoiMn2C4CvAprAAeMzxGxL4\nSSRlsU60wHZfqey9Oj4dG0iZyAl38A47pQUCYUOKsbAL063gf7LknjACHYZKGcNh\nb9SNt+6ZHRtugMn+cO5TtxPSxQKBgQDTj4nyUvGcWtRHVYhTheA8jizw5g23Df1q\nn7xmSA9ygZ8/Tq6MlJAY7XkwA4k7A7hI5vuY7XdT6SZck6LbygzoPLrhSJcBWOd7\nsarrohClFblmROkuy0cNF7smqRWdmpgd0l+icLKse9Nq0tW0MGMOQE8CG6j4RRKn\n6gaRKmnxXwKBgFWM6XHK5KzVKcufUfdXoqQVBaijU3Adu0aUqAVers4sWgcBUakJ\nS2CwlHl7wGiop0y6DEF6q4yzryaC+IreRn4Asw6XxnEnRurCUDEfTubaQWGFGnuV\nzXydvUQIsBYfwXfrVm5vr8PT+YMVycBacpirF38E04oEj3aOf5F6HyUlAoGBAIk1\nJrpKoPhO0C4Tgv7obK3ZZ7w09+Ao6pokTwPm6F3TQ3zDguEZ2PrRyS8im/XyS6q8\nY6CjIikBpSeVeKIjQIu+F1XUxlrRVhAbAkcgLLtkg4GYX8NBgysyoOZJ8wLsKIvu\nzKeFf9vt0wgNBRx/5T5w5szvM38RDTBpzyiG4X7xAoGAGYw39fyrifDE7I2hOfuN\npU9WYggQOKJnoRTQ5o/Ry7rOrgx+tjzPNKpdE+Ngy51C9yOgJm5JiB6G/tRDSKlg\njmdhgehDoqmqt6hHvqobKwdJEL2l3lSYaniKynw7065SIIrvecYoFOlbCBRsgb9P\n+BrvfJA1IotqKpmncq0NMa4=\n-----END PRIVATE KEY-----\n",
+  "client_email": "myservice@integrationtogsviaapi.iam.gserviceaccount.com",
+  "client_id": "107176457625798615694",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/myservice%40integrationtogsviaapi.iam.gserviceaccount.com"
+}
