@@ -20,10 +20,10 @@ pipeline {
           steps {
             parallel(
               a: {
-                echo "This is branch a"
+                echo "This is branch a ${TAG_UNIXTIME}"
               },
               b: {
-                echo "This is branch b"
+                echo "This is branch b ${TAG_UNIXTIME}"
               }
             )
           }
