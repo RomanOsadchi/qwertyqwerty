@@ -1,7 +1,7 @@
 #!groovy
-env.TAG = @OSACHI
-properties([disableConcurrentBuilds()])
 
+properties([disableConcurrentBuilds()])
+env.TAG = @OSACHI
 pipeline {
     agent {
             label 'master'
@@ -11,6 +11,7 @@ pipeline {
             timestamps()
     }
     stages {
+
         stage("First Step") {
             steps {
                 sh 'echo "hello world"'
