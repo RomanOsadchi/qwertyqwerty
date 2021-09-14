@@ -1,7 +1,7 @@
 #!groovy
 
 properties([disableConcurrentBuilds()])
-env.TAG = @OSACHI
+env.TAG = "@OSACHI"
 pipeline {
     agent {
             label 'master'
