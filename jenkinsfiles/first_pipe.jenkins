@@ -16,6 +16,18 @@ pipeline {
                 sh 'echo "hello world"'
             }
         }
+    stage('run-parallel-branches') {
+          steps {
+            parallel(
+              a: {
+                echo "This is branch a"
+              },
+              b: {
+                echo "This is branch b"
+              }
+            )
+          }
+}
         stage("Allure report") {
             steps {
                 allure includeProperties: false, jdk: '', results: [[path: 'allure-results']]
