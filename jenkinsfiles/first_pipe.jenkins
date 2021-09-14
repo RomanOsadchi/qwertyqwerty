@@ -4,16 +4,16 @@ properties([disableConcurrentBuilds()])
 
 pipeline {
     agent {
-        label 'master'
-    }
-        options {
-                buildDiscarder(logRotator(numToKeepStr: '10', artifactNumToKeepStr: '10'))
-                timestamps()
+            label 'master'
         }
+    options {
+            buildDiscarder(logRotator(numToKeepStr: '10', artifactNumToKeepStr: '10'))
+            timestamps()
+    }
     stages {
-        stage("First Step"){
+        stage("First Step") {
             steps {
-                sh echo
+                sh echo 'hello world'
             }
         }
     }
