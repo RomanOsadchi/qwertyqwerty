@@ -2,11 +2,11 @@
 
 properties([disableConcurrentBuilds()])
 
-pipeline{
-    agent{
+pipeline {
+    agent {
         label 'master'
     }
-    options{
+    options {
       buildDiscarder(logRotator(numToKeepStr: '10', artifactNumToKeepStr: '10'))
       timestamps()
     }
