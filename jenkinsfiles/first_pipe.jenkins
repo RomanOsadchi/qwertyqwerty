@@ -20,10 +20,18 @@ pipeline {
           steps {
             parallel(
               a: {
-                echo "This is branch a ${TAG_TIMESTAMP}"
+                echo "1"
+                echo "2"
+                echo "3"
+                echo "4"
+                echo "5"
               },
               b: {
-                echo "This is branch b ${TAG_TIMESTAMP}"
+                echo "1"
+                echo "2"
+                echo "3"
+                echo "4"
+                echo "5"
               }
             )
           }
